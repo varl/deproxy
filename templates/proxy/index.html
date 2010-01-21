@@ -1,10 +1,9 @@
-<style>
-#browser {
-    width: 800px;
-    height: 600px;
-}
-</style>
+{% extends 'base.html' %}
 
-{{ url }}
-<br/>
-<iframe id="browser" src="render/?url={{ url }}"></iframe>
+{% block address_bar %}
+    {{ url }}
+{% endblock %}
+
+{% block content %}
+    <iframe id="browser" src="render/?url={{ url }}"></iframe>
+{% endblock %}

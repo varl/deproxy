@@ -1,0 +1,15 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+#address-bar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0.8;
+    background: #fea;
+}
+
+#browser {
+}
